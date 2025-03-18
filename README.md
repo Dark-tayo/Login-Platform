@@ -1,2 +1,2 @@
-# Login-Platform
-A Recreation of Uch's login page
+# Intranet page
+ UCH intranet page

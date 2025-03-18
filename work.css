@@ -1,0 +1,66 @@
+.header {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        text-align: center;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    .header img {
+        width: 82%;
+        height: auto;
+    }
+     
+
+body{
+    background-color: rgb(206, 194, 200);
+}
+.body{
+    background-color: white;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    margin:auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.webmail{
+    width:100%;
+    margin: auto;
+    text-align: center;
+    padding: 1px;
+
+
+}
+.webmail img{
+    width: 30%;
+
+}
+.footer{
+    text-align: center;
+}
+label{
+    padding: 5px;
+}
+form{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+
+}
+input{
+    width: 100px;
+}
+
+@media only screen and (max-width:821px) {
+    .webmail{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
